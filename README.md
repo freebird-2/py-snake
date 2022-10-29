@@ -1,4 +1,6 @@
 # py-snake
+The classic snake game, with a few extra settings.
+Built with Python and pygame.
 ## Instructions
 ### Option 1
 Run `snake.py` like any other Python script: from the command line, in an IDE, etc.
