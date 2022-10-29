@@ -1,5 +1,7 @@
+venv/
 build/
 dist/
-venv/
-high-score
+.idea/dictionaries/
+__pycache__/
 *.spec
+high-score
