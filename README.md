@@ -1,5 +1,6 @@
 # py-snake
 The classic snake game, with a few extra settings.
+
 Built with Python and pygame.
 ## Instructions
 ### Option 1
