@@ -306,11 +306,11 @@ def run_game(
                 if cheats:
                     if event.key == pygame.K_SLASH:
                         x_vel, y_vel = STOP
-                    elif event.key == pygame.K_COMMA:
+                    elif event.key == pygame.K_COMMA and framerate > 1:
                         framerate -= 1
                     elif event.key == pygame.K_PERIOD:
                         framerate += 1
-                    elif event.key == pygame.K_SEMICOLON:
+                    elif event.key == pygame.K_SEMICOLON and length > 1:
                         length -= 1
                         score -= 1
                     elif event.key == pygame.K_QUOTE:
